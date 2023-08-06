@@ -44,7 +44,7 @@ const Blog = () => {
               <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
                 <span className="text-lg font-medium text-berry">₹ 4,999</span>
                 <a href="/Pages">
-                  <button class="bg-berry  text-white font-bold py-2 px-4 rounded mr-0 focus:bg-mauve ">
+                  <button className="bg-berry  text-white font-bold py-2 px-4 rounded mr-0 focus:bg-mauve ">
                     Enroll Now
                   </button>
                 </a>
@@ -83,7 +83,7 @@ const Blog = () => {
               <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
                 <span className="text-lg font-medium text-berry">₹ 4,999</span>
                 <a href="/Pages">
-                  <button class="bg-berry  text-white font-bold py-2 px-4 rounded mr-0 focus:bg-mauve ">
+                  <button className="bg-berry  text-white font-bold py-2 px-4 rounded mr-0 focus:bg-mauve ">
                     Enroll Now
                   </button>
                 </a>
@@ -121,7 +121,7 @@ const Blog = () => {
               <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400">
                 <span className="text-lg font-medium text-berry">₹ 4,999</span>
                 <a href="/Pages">
-                  <button class="bg-berry  text-white font-bold py-2 px-4 rounded mr-0 focus:bg-mauve ">
+                  <button className="bg-berry  text-white font-bold py-2 px-4 rounded mr-0 focus:bg-mauve ">
                     Enroll Now
                   </button>
                 </a>

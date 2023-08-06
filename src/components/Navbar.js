@@ -48,21 +48,21 @@ const Navbar = () => {
         {
             isAuthenticated ? (
             
-              <button class="bg-berry  text-white font-bold py-2 rounded px-4 focus:bg-mauve " onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+              <button className="bg-berry  text-white font-bold py-2 rounded px-4 focus:bg-mauve " onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
           Logout
         </button>
              
             ) : (
-              <button class="bg-berry text-white font-bold py-2 px-4 rounded mr-2 focus:bg-mauve " onClick={() => loginWithRedirect()}>LogIn</button>
+              <button className="bg-berry text-white font-bold py-2 px-4 rounded mr-2 focus:bg-mauve " onClick={() => loginWithRedirect()}>LogIn</button>
               
               )
           }
 
 { isAuthenticated && 
- (<div class="dropdown relative profile">
-    <a class="dropdown-toggle flex items-center hidden-arrow" href="/" id="dropdownMenuButton2" role="button"
+ (<div className="dropdown relative profile">
+    <a className="dropdown-toggle flex items-center hidden-arrow" href="/" id="dropdownMenuButton2" role="button"
       data-bs-toggle="dropdown" aria-expanded="false">
-      <img class="rounded-full border-berry border-2" src={user.picture} alt={user.name} loading="lazy" height={40} width={40}/>
+      <img className="rounded-full border-berry border-2" src={user.picture} alt={user.name} loading="lazy" height={40} width={40}/>
     </a>
   </div>)
   }
@@ -99,10 +99,10 @@ const Navbar = () => {
           </div>
         </ul>
         { isAuthenticated && 
- (<div class="dropdown relative md:hidden ml-2 mr-2 ">
-    <a class="dropdown-toggle flex items-center hidden-arrow" href="/" id="dropdownMenuButton2" role="button"
+ (<div className="dropdown relative md:hidden ml-2 mr-2 ">
+    <a className="dropdown-toggle flex items-center hidden-arrow" href="/" id="dropdownMenuButton2" role="button"
       data-bs-toggle="dropdown" aria-expanded="false">
-      <img class="rounded-full border-berry border-2" src={user.picture} alt={user.name} loading="lazy" height={50} width={50}/>
+      <img className="rounded-full border-berry border-2" src={user.picture} alt={user.name} loading="lazy" height={50} width={50}/>
     </a>
   </div>)
   }
