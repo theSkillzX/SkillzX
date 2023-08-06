@@ -1,7 +1,4 @@
 import React from "react";
-import code from "../assets/code.jpeg";
-import code1 from "../assets/code1.jpg";
-import code2 from "../assets/code2.jpg";
 
 const Category = () => {
   return (
@@ -18,20 +15,12 @@ const Category = () => {
         </div>
         <div className="w-[80%] m-auto grid grid-cols-1  gap-x-12 gap-y-8 lg:grid-cols-4 ">
           <article className="flex flex-col rounded-xl bg-darkwhite3">
-            <a
-              rel="noopener noreferrer"
-              href="/"
-              aria-label="Te nulla oportere reprimique his dolorum"
-            ></a>
+            
             <div className="flex flex-col flex-1 p-6">
+            
               <a
                 rel="noopener noreferrer"
-                href="#"
-                aria-label="Te nulla oportere reprimique his dolorum"
-              ></a>
-              <a
-                rel="noopener noreferrer"
-                href="#"
+                href="/"
                 className="text-xl tracking-wider uppercase hover:underline dark:text-berry font-bold"
               >
                 Harmony of Strings & Keys
@@ -57,11 +46,7 @@ const Category = () => {
               aria-label="Te nulla oportere reprimique his dolorum"
             ></a>
             <div className="flex flex-col flex-1 p-6">
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                aria-label="Te nulla oportere reprimique his dolorum"
-              ></a>
+             
               <a
                 rel="noopener noreferrer"
                 href="#"
@@ -84,17 +69,9 @@ const Category = () => {
             </div>
           </article>
           <article className="flex flex-col rounded-xl bg-darkwhite3">
-            <a
-              rel="noopener noreferrer"
-              href="/"
-              aria-label="Te nulla oportere reprimique his dolorum"
-            ></a>
+            
             <div className="flex flex-col flex-1 p-6">
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                aria-label="Te nulla oportere reprimique his dolorum"
-              ></a>
+             
               <a
                 rel="noopener noreferrer"
                 href="#"
@@ -117,17 +94,9 @@ const Category = () => {
             </div>
           </article>
           <article className="flex flex-col rounded-xl bg-darkwhite3">
-            <a
-              rel="noopener noreferrer"
-              href="/"
-              aria-label="Te nulla oportere reprimique his dolorum"
-            ></a>
+           
             <div className="flex flex-col flex-1 p-6">
-              <a
-                rel="noopener noreferrer"
-                href="#"
-                aria-label="Te nulla oportere reprimique his dolorum"
-              ></a>
+              
               <a
                 rel="noopener noreferrer"
                 href="#"

@@ -4,7 +4,7 @@ import Hero from './Hero'
 import Gallery from './Accordion'
 import New from './Popularcourse'
 import Footer from './Footer'
-import Blog from './Popularcourse'
+// import Blog from './Popularcourse'
 import Category from './Category'
 
 const Home = () => {

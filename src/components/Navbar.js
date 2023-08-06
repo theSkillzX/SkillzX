@@ -7,7 +7,7 @@ import IonIcon from '@reacticons/ionicons';
 const Navbar = () => {
   const { loginWithRedirect } = useAuth0();
   const { logout } = useAuth0();
-  const { user, isAuthenticated, isLoading } = useAuth0();
+  const { user, isAuthenticated} = useAuth0();
   const [open, setOpen] = useState(false);
   return (
     <nav className="sticky top-0 bg-white z-20">

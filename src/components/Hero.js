@@ -1,7 +1,7 @@
 import React from 'react'
 import animation from '../assets/animation.json'
 import Lottie from "lottie-react";
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 
 const Hero = () => {
   return (
