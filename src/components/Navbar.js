@@ -60,7 +60,7 @@ const Navbar = () => {
 
 { isAuthenticated && 
  (<div class="dropdown relative profile">
-    <a class="dropdown-toggle flex items-center hidden-arrow" href="#" id="dropdownMenuButton2" role="button"
+    <a class="dropdown-toggle flex items-center hidden-arrow" href="/" id="dropdownMenuButton2" role="button"
       data-bs-toggle="dropdown" aria-expanded="false">
       <img class="rounded-full border-berry border-2" src={user.picture} alt={user.name} loading="lazy" height={40} width={40}/>
     </a>
@@ -100,7 +100,7 @@ const Navbar = () => {
         </ul>
         { isAuthenticated && 
  (<div class="dropdown relative md:hidden ml-2 mr-2 ">
-    <a class="dropdown-toggle flex items-center hidden-arrow" href="#" id="dropdownMenuButton2" role="button"
+    <a class="dropdown-toggle flex items-center hidden-arrow" href="/" id="dropdownMenuButton2" role="button"
       data-bs-toggle="dropdown" aria-expanded="false">
       <img class="rounded-full border-berry border-2" src={user.picture} alt={user.name} loading="lazy" height={50} width={50}/>
     </a>

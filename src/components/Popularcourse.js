@@ -29,13 +29,13 @@ const Blog = () => {
             </a>
             <div className="flex flex-col flex-1 p-6">
              
-              <a
+              <p
                 rel="noopener noreferrer"
-                href="#"
+            
                 className="text-xl tracking-wider uppercase hover:underline dark:text-berry font-bold"
               >
                 3D Designing - Basic Course and Figma Basic
-              </a>
+              </p>
               <h3 className="flex-1 py-2 text-sm font-semibold leading-snug">
                 Don't miss the chance to join our 3D Designing Masterclass led
                 by Aditya Sir, Alongside learning top-notch website designing
@@ -66,13 +66,13 @@ const Blog = () => {
             </a>
             <div className="flex flex-col flex-1 p-6">
              
-              <a
+              <p
                 rel="noopener noreferrer"
-                href="#"
+                
                 className="text-xl tracking-wider uppercase hover:underline dark:text-berry font-bold"
               >
                 MERN Stack Web Development
-              </a>
+              </p>
               <h3 className="flex-1 py-2 text-sm font-semibold leading-snug">
                 Ignite your web development journey with our captivating MERN
                 Stack lecture. Master the art of building dynamic web
@@ -105,13 +105,13 @@ const Blog = () => {
             </a>
             <div className="flex flex-col flex-1 p-6">
               
-              <a
+              <p
                 rel="noopener noreferrer"
-                href="#"
+                
                 className="text-xl tracking-wider uppercase hover:underline dark:text-berry font-bold"
               >
                 C and C++ for Everybody Specialization
-              </a>
+              </p>
               <h3 className="flex-1 py-2 text-sm font-semibold leading-snug">
                 Master C and C++ programming with our specialized courses. Level
                 up your coding skills and unlock endless possibilities in
